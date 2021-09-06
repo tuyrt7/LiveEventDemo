@@ -1,4 +1,4 @@
-package com.tuyrt.liveeventdemo
+package com.bayair.liveeventdemo
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,7 +6,6 @@ import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
-import com.bayair.liveeventdemo.R
 import com.tuyr.livebus.LiveEventBus
 import java.lang.Thread.sleep
 import kotlin.concurrent.thread

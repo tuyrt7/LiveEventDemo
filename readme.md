@@ -2,11 +2,16 @@
 
 使用方式：
 ```
-
     gradle 依赖：
-        //implementation 'com.tuyrt:live-event-bus:1.0.0'
-        implementation 'com.github.tuyrt7:live-data-bus:1.0.0'
+        // 根目录 gradle
+        maven { url "https://jitpack.io" }
+        // module gradle
+        implementation 'com.github.tuyrt7:LiveEventDemo:0.1'
 
+    // 发送事件
+    LiveEventBus.get("EVENT_KEY", String::class.java).postEvent("event")
+
+    // 接受事件
     LiveEventBus
         .get("EVENT_KEY", String::class.java)
         .observe(this) {

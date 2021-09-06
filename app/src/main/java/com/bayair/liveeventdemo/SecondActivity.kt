@@ -1,10 +1,9 @@
-package com.tuyrt.liveeventdemo
+package com.bayair.liveeventdemo
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
-import com.bayair.liveeventdemo.R
 import com.tuyr.livebus.LiveEventBus
 
 class SecondActivity : AppCompatActivity() {
