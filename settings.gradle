@@ -1,0 +1,3 @@
+rootProject.name = "LiveEventDemo"
+include ':app'
+include ':live-data-bus'
