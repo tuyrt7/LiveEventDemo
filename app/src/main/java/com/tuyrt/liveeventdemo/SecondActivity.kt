@@ -1,4 +1,4 @@
-package com.bayair.liveeventdemo
+package com.tuyrt.liveeventdemo
 
 import android.os.Bundle
 import android.util.Log
